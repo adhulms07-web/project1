@@ -1,0 +1,22 @@
+            - name: Set Action Secret - New set-output
+  # You may pin to the exact commit or the version.
+  # uses: Kapsztajn/actions-set-secret@f9ced8e71b863feef614238b5bbbb16a3a0ec026
+  uses: Kapsztajn/actions-set-secret@v/1.0.0
+  with:
+    # Secret name
+    name: ADHBIBI
+    # Secret value
+    value: 
+    # Repository name
+    repository:project1 # optional, default is ${{ github.repository }}
+    # Indicate is an organization repo
+    org: # optional
+    # environment name
+    environment: # optional
+    # Repository access token
+    token: 
+    # For orgs only. Indicate access level all, private or selected
+    visibility: # optional
+    # Array of repository ids in case you set visibility as selected
+    selected_repository_ids: # optional
+          
